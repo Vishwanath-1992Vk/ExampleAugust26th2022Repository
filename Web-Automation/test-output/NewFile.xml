@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suits name="create and delete user">
+<test name="test cases">
+<class name= "com.sgtesting.tests.Assignment1">
+</class>
+</test>
+</suits>
