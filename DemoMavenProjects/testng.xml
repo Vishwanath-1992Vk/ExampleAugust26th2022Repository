@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="testcases">
 <test name="Users>">
-<classes>
-<class name="com.sgtesting.testcases.Users"></class>
-</classes>
+<packages>
+<package name="com.MavenActi.programs">
+</package>
+</packages>
 </test>
 </suite>
