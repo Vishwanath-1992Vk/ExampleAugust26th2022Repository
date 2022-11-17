@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="63" passed="63" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-09T14:15:13 IST" name="Default suite" finished-at="2022-11-09T14:16:03 IST" duration-ms="50704">
+  <suite started-at="2022-11-12T00:04:12 IST" name="ActitimeApp" finished-at="2022-11-12T00:09:47 IST" duration-ms="335595">
     <groups>
     </groups>
-    <test started-at="2022-11-09T14:15:13 IST" name="Default test" finished-at="2022-11-09T14:16:03 IST" duration-ms="50704">
-      <class name="com.sgtesting.testngscenario.LoginLogoutDemo">
-        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.testngscenario.LoginLogoutDemo@49bf29c6]" started-at="2022-11-09T14:15:13 IST" name="launchBrowser" finished-at="2022-11-09T14:15:36 IST" duration-ms="22679" status="PASS">
+    <test started-at="2022-11-12T00:04:12 IST" name="Test cases" finished-at="2022-11-12T00:09:47 IST" duration-ms="335595">
+      <class name="com.TestNGActitime.programs.Assignment1">
+        <test-method signature="launchBrowser()[pri:1, instance:com.TestNGActitime.programs.Assignment1@3b6ddd1d]" started-at="2022-11-12T00:04:12 IST" name="launchBrowser" finished-at="2022-11-12T00:04:25 IST" duration-ms="12957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="navigate()[pri:2, instance:com.sgtesting.testngscenario.LoginLogoutDemo@49bf29c6]" started-at="2022-11-09T14:15:36 IST" name="navigate" finished-at="2022-11-09T14:15:49 IST" duration-ms="13341" status="PASS">
+        <test-method signature="navigate()[pri:2, instance:com.TestNGActitime.programs.Assignment1@3b6ddd1d]" started-at="2022-11-12T00:04:25 IST" name="navigate" finished-at="2022-11-12T00:04:34 IST" duration-ms="8872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngscenario.LoginLogoutDemo@49bf29c6]" started-at="2022-11-09T14:15:49 IST" name="login" data-provider="login" finished-at="2022-11-09T14:15:56 IST" duration-ms="7396" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.TestNGActitime.programs.Assignment1@3b6ddd1d]" started-at="2022-11-12T00:04:34 IST" name="login" data-provider="login" finished-at="2022-11-12T00:04:43 IST" duration-ms="9058" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,19 +31,480 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.sgtesting.testngscenario.LoginLogoutDemo@49bf29c6]" started-at="2022-11-09T14:15:56 IST" name="minimizeFlyOutwindow" finished-at="2022-11-09T14:15:59 IST" duration-ms="2391" status="PASS">
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.TestNGActitime.programs.Assignment1@3b6ddd1d]" started-at="2022-11-12T00:04:43 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T00:04:46 IST" duration-ms="2544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- minimizeFlyOutwindow -->
-        <test-method signature="logout()[pri:5, instance:com.sgtesting.testngscenario.LoginLogoutDemo@49bf29c6]" started-at="2022-11-09T14:15:59 IST" name="logout" finished-at="2022-11-09T14:16:02 IST" duration-ms="3055" status="PASS">
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.TestNGActitime.programs.Assignment1@3b6ddd1d]" started-at="2022-11-12T00:04:46 IST" name="createUser" data-provider="createUser" finished-at="2022-11-12T00:05:02 IST" duration-ms="16364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[demo@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[demoUser1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteUser()[pri:6, instance:com.TestNGActitime.programs.Assignment1@3b6ddd1d]" started-at="2022-11-12T00:05:02 IST" name="deleteUser" finished-at="2022-11-12T00:05:09 IST" duration-ms="7216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="logout()[pri:7, instance:com.TestNGActitime.programs.Assignment1@3b6ddd1d]" started-at="2022-11-12T00:05:09 IST" name="logout" finished-at="2022-11-12T00:05:12 IST" duration-ms="2850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method signature="closeApp()[pri:6, instance:com.sgtesting.testngscenario.LoginLogoutDemo@49bf29c6]" started-at="2022-11-09T14:16:02 IST" name="closeApp" finished-at="2022-11-09T14:16:03 IST" duration-ms="1312" status="PASS">
+        <test-method signature="closeApp()[pri:8, instance:com.TestNGActitime.programs.Assignment1@3b6ddd1d]" started-at="2022-11-12T00:05:12 IST" name="closeApp" finished-at="2022-11-12T00:05:13 IST" duration-ms="745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- com.sgtesting.testngscenario.LoginLogoutDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.TestNGActitime.programs.Assignment1 -->
+      <class name="com.TestNGActitime.programs.Assignment8">
+        <test-method signature="launchBrowser()[pri:1, instance:com.TestNGActitime.programs.Assignment8@2ed2d9cb]" started-at="2022-11-12T00:08:32 IST" name="launchBrowser" finished-at="2022-11-12T00:08:35 IST" duration-ms="3438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.TestNGActitime.programs.Assignment8@2ed2d9cb]" started-at="2022-11-12T00:08:35 IST" name="navigate" finished-at="2022-11-12T00:08:42 IST" duration-ms="7343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.TestNGActitime.programs.Assignment8@2ed2d9cb]" started-at="2022-11-12T00:08:42 IST" name="login" data-provider="login" finished-at="2022-11-12T00:08:48 IST" duration-ms="5651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.TestNGActitime.programs.Assignment8@2ed2d9cb]" started-at="2022-11-12T00:08:48 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T00:08:50 IST" duration-ms="2215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method signature="addCustomer(java.lang.String)[pri:5, instance:com.TestNGActitime.programs.Assignment8@2ed2d9cb]" started-at="2022-11-12T00:08:50 IST" name="addCustomer" data-provider="addCustomer" finished-at="2022-11-12T00:09:06 IST" duration-ms="15174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Isro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="creatProject(java.lang.String)[pri:6, instance:com.TestNGActitime.programs.Assignment8@2ed2d9cb]" started-at="2022-11-12T00:09:06 IST" name="creatProject" data-provider="createProject" finished-at="2022-11-12T00:09:19 IST" duration-ms="13146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaganayana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatProject -->
+        <test-method signature="CreatTask(java.lang.String)[pri:7, instance:com.TestNGActitime.programs.Assignment8@2ed2d9cb]" started-at="2022-11-12T00:09:19 IST" name="CreatTask" data-provider="Createtask" finished-at="2022-11-12T00:09:31 IST" duration-ms="12092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewTask]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatTask -->
+        <test-method signature="deleteCustomer()[pri:7, instance:com.TestNGActitime.programs.Assignment8@2ed2d9cb]" started-at="2022-11-12T00:09:31 IST" name="deleteCustomer" finished-at="2022-11-12T00:09:44 IST" duration-ms="12732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logout()[pri:7, instance:com.TestNGActitime.programs.Assignment8@2ed2d9cb]" started-at="2022-11-12T00:09:44 IST" name="logout" finished-at="2022-11-12T00:09:47 IST" duration-ms="3169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApp()[pri:8, instance:com.TestNGActitime.programs.Assignment8@2ed2d9cb]" started-at="2022-11-12T00:09:47 IST" name="closeApp" finished-at="2022-11-12T00:09:47 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.TestNGActitime.programs.Assignment8 -->
+      <class name="com.TestNGActitime.programs.Assignment6">
+        <test-method signature="launchBrowser()[pri:1, instance:com.TestNGActitime.programs.Assignment6@1b2abca6]" started-at="2022-11-12T00:07:15 IST" name="launchBrowser" finished-at="2022-11-12T00:07:18 IST" duration-ms="3236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.TestNGActitime.programs.Assignment6@1b2abca6]" started-at="2022-11-12T00:07:18 IST" name="navigate" finished-at="2022-11-12T00:07:25 IST" duration-ms="7516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.TestNGActitime.programs.Assignment6@1b2abca6]" started-at="2022-11-12T00:07:25 IST" name="login" data-provider="login" finished-at="2022-11-12T00:07:31 IST" duration-ms="5804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.TestNGActitime.programs.Assignment6@1b2abca6]" started-at="2022-11-12T00:07:31 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T00:07:34 IST" duration-ms="2347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method signature="addCustomer(java.lang.String)[pri:5, instance:com.TestNGActitime.programs.Assignment6@1b2abca6]" started-at="2022-11-12T00:07:34 IST" name="addCustomer" data-provider="addCustomer" finished-at="2022-11-12T00:07:49 IST" duration-ms="15538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="creatProject(java.lang.String)[pri:6, instance:com.TestNGActitime.programs.Assignment6@1b2abca6]" started-at="2022-11-12T00:07:49 IST" name="creatProject" data-provider="createProject" finished-at="2022-11-12T00:07:50 IST" duration-ms="1163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaganayana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatProject -->
+        <test-method signature="deleteProject()[pri:7, instance:com.TestNGActitime.programs.Assignment6@1b2abca6]" started-at="2022-11-12T00:07:50 IST" name="deleteProject" finished-at="2022-11-12T00:07:52 IST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method signature="logout()[pri:8, instance:com.TestNGActitime.programs.Assignment6@1b2abca6]" started-at="2022-11-12T00:07:52 IST" name="logout" finished-at="2022-11-12T00:07:53 IST" duration-ms="1206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApp()[pri:9, instance:com.TestNGActitime.programs.Assignment6@1b2abca6]" started-at="2022-11-12T00:07:53 IST" name="closeApp" finished-at="2022-11-12T00:07:53 IST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.TestNGActitime.programs.Assignment6 -->
+      <class name="com.TestNGActitime.programs.Assignment7">
+        <test-method signature="launchBrowser()[pri:1, instance:com.TestNGActitime.programs.Assignment7@6392827e]" started-at="2022-11-12T00:07:53 IST" name="launchBrowser" finished-at="2022-11-12T00:07:57 IST" duration-ms="3110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.TestNGActitime.programs.Assignment7@6392827e]" started-at="2022-11-12T00:07:57 IST" name="navigate" finished-at="2022-11-12T00:08:04 IST" duration-ms="7205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.TestNGActitime.programs.Assignment7@6392827e]" started-at="2022-11-12T00:08:04 IST" name="login" data-provider="login" finished-at="2022-11-12T00:08:10 IST" duration-ms="5759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.TestNGActitime.programs.Assignment7@6392827e]" started-at="2022-11-12T00:08:10 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T00:08:12 IST" duration-ms="2328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method signature="addCustomer(java.lang.String)[pri:5, instance:com.TestNGActitime.programs.Assignment7@6392827e]" started-at="2022-11-12T00:08:12 IST" name="addCustomer" data-provider="addCustomer" finished-at="2022-11-12T00:08:27 IST" duration-ms="15467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="creatProject(java.lang.String)[pri:6, instance:com.TestNGActitime.programs.Assignment7@6392827e]" started-at="2022-11-12T00:08:27 IST" name="creatProject" data-provider="createProject" finished-at="2022-11-12T00:08:29 IST" duration-ms="1148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaganayana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatProject -->
+        <test-method signature="ModifyProject()[pri:7, instance:com.TestNGActitime.programs.Assignment7@6392827e]" started-at="2022-11-12T00:08:29 IST" name="ModifyProject" finished-at="2022-11-12T00:08:29 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyProject -->
+        <test-method signature="DeleteProject()[pri:8, instance:com.TestNGActitime.programs.Assignment7@6392827e]" started-at="2022-11-12T00:08:29 IST" name="DeleteProject" finished-at="2022-11-12T00:08:30 IST" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProject -->
+        <test-method signature="logout()[pri:9, instance:com.TestNGActitime.programs.Assignment7@6392827e]" started-at="2022-11-12T00:08:30 IST" name="logout" finished-at="2022-11-12T00:08:31 IST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApp()[pri:10, instance:com.TestNGActitime.programs.Assignment7@6392827e]" started-at="2022-11-12T00:08:31 IST" name="closeApp" finished-at="2022-11-12T00:08:32 IST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.TestNGActitime.programs.Assignment7 -->
+      <class name="com.TestNGActitime.programs.Assignment4">
+        <test-method signature="launchBrowser()[pri:1, instance:com.TestNGActitime.programs.Assignment4@209da20d]" started-at="2022-11-12T00:05:58 IST" name="launchBrowser" finished-at="2022-11-12T00:06:02 IST" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.TestNGActitime.programs.Assignment4@209da20d]" started-at="2022-11-12T00:06:02 IST" name="navigate" finished-at="2022-11-12T00:06:09 IST" duration-ms="7614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.TestNGActitime.programs.Assignment4@209da20d]" started-at="2022-11-12T00:06:09 IST" name="login" data-provider="login" finished-at="2022-11-12T00:06:15 IST" duration-ms="5747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.TestNGActitime.programs.Assignment4@209da20d]" started-at="2022-11-12T00:06:15 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T00:06:17 IST" duration-ms="2430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method signature="addCustomer(java.lang.String)[pri:5, instance:com.TestNGActitime.programs.Assignment4@209da20d]" started-at="2022-11-12T00:06:17 IST" name="addCustomer" data-provider="addCustomer" finished-at="2022-11-12T00:06:33 IST" duration-ms="15931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="deleteCustomer()[pri:6, instance:com.TestNGActitime.programs.Assignment4@209da20d]" started-at="2022-11-12T00:06:33 IST" name="deleteCustomer" finished-at="2022-11-12T00:06:35 IST" duration-ms="1162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logout()[pri:7, instance:com.TestNGActitime.programs.Assignment4@209da20d]" started-at="2022-11-12T00:06:35 IST" name="logout" finished-at="2022-11-12T00:06:36 IST" duration-ms="1290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApp()[pri:8, instance:com.TestNGActitime.programs.Assignment4@209da20d]" started-at="2022-11-12T00:06:36 IST" name="closeApp" finished-at="2022-11-12T00:06:37 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.TestNGActitime.programs.Assignment4 -->
+      <class name="com.TestNGActitime.programs.Assignment5">
+        <test-method signature="launchBrowser()[pri:1, instance:com.TestNGActitime.programs.Assignment5@e15b7e8]" started-at="2022-11-12T00:06:37 IST" name="launchBrowser" finished-at="2022-11-12T00:06:40 IST" duration-ms="3297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.TestNGActitime.programs.Assignment5@e15b7e8]" started-at="2022-11-12T00:06:40 IST" name="navigate" finished-at="2022-11-12T00:06:47 IST" duration-ms="6962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.TestNGActitime.programs.Assignment5@e15b7e8]" started-at="2022-11-12T00:06:47 IST" name="login" data-provider="login" finished-at="2022-11-12T00:06:53 IST" duration-ms="5626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.TestNGActitime.programs.Assignment5@e15b7e8]" started-at="2022-11-12T00:06:53 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T00:06:55 IST" duration-ms="2233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method signature="addCustomer(java.lang.String)[pri:5, instance:com.TestNGActitime.programs.Assignment5@e15b7e8]" started-at="2022-11-12T00:06:55 IST" name="addCustomer" data-provider="addCustomer" finished-at="2022-11-12T00:07:10 IST" duration-ms="15371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="modifyCustomer()[pri:6, instance:com.TestNGActitime.programs.Assignment5@e15b7e8]" started-at="2022-11-12T00:07:10 IST" name="modifyCustomer" finished-at="2022-11-12T00:07:12 IST" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCustomer -->
+        <test-method signature="deleteCustomer()[pri:7, instance:com.TestNGActitime.programs.Assignment5@e15b7e8]" started-at="2022-11-12T00:07:12 IST" name="deleteCustomer" finished-at="2022-11-12T00:07:13 IST" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logout()[pri:8, instance:com.TestNGActitime.programs.Assignment5@e15b7e8]" started-at="2022-11-12T00:07:13 IST" name="logout" finished-at="2022-11-12T00:07:14 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApp()[pri:9, instance:com.TestNGActitime.programs.Assignment5@e15b7e8]" started-at="2022-11-12T00:07:14 IST" name="closeApp" finished-at="2022-11-12T00:07:15 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.TestNGActitime.programs.Assignment5 -->
+      <class name="com.TestNGActitime.programs.Assignment2">
+        <test-method signature="launchBrowser()[pri:1, instance:com.TestNGActitime.programs.Assignment2@bae7dc0]" started-at="2022-11-12T00:05:13 IST" name="launchBrowser" finished-at="2022-11-12T00:05:16 IST" duration-ms="3311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.TestNGActitime.programs.Assignment2@bae7dc0]" started-at="2022-11-12T00:05:16 IST" name="navigate" finished-at="2022-11-12T00:05:24 IST" duration-ms="7460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.TestNGActitime.programs.Assignment2@bae7dc0]" started-at="2022-11-12T00:05:24 IST" name="login" data-provider="login" finished-at="2022-11-12T00:05:29 IST" duration-ms="5694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.TestNGActitime.programs.Assignment2@bae7dc0]" started-at="2022-11-12T00:05:29 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T00:05:32 IST" duration-ms="2337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.TestNGActitime.programs.Assignment2@bae7dc0]" started-at="2022-11-12T00:05:32 IST" name="createUser" data-provider="createUser" finished-at="2022-11-12T00:05:48 IST" duration-ms="15951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[demo@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[demoUser1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteUser()[pri:6, instance:com.TestNGActitime.programs.Assignment2@bae7dc0]" started-at="2022-11-12T00:05:48 IST" name="deleteUser" finished-at="2022-11-12T00:05:54 IST" duration-ms="6545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="modifyuser(java.lang.String,java.lang.String)[pri:6, instance:com.TestNGActitime.programs.Assignment2@bae7dc0]" started-at="2022-11-12T00:05:54 IST" name="modifyuser" data-provider=" modifyuser" finished-at="2022-11-12T00:05:54 IST" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[432]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[432]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyuser -->
+        <test-method signature="logout()[pri:7, instance:com.TestNGActitime.programs.Assignment2@bae7dc0]" started-at="2022-11-12T00:05:54 IST" name="logout" finished-at="2022-11-12T00:05:58 IST" duration-ms="3267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApp()[pri:8, instance:com.TestNGActitime.programs.Assignment2@bae7dc0]" started-at="2022-11-12T00:05:58 IST" name="closeApp" finished-at="2022-11-12T00:05:58 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.TestNGActitime.programs.Assignment2 -->
+    </test> <!-- Test cases -->
+  </suite> <!-- ActitimeApp -->
 </testng-results>
