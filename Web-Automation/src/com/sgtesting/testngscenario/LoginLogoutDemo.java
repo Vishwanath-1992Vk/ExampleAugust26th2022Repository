@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class LoginLogoutDemo {
 	public static WebDriver oBrowser=null;
 	@Test(priority = 1)
-	private static void launchBrowser()
+	public static void launchBrowser()
 	{
 		try
 		{

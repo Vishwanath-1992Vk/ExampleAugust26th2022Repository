@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="63" passed="63" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-12T16:09:31 IST" name="testcases" finished-at="2022-11-12T16:15:11 IST" duration-ms="339286">
+    <groups>
+    </groups>
+    <test started-at="2022-11-12T16:09:31 IST" name="Users&gt;" finished-at="2022-11-12T16:15:11 IST" duration-ms="339286">
+      <class name="com.MavenActi.programs.Assignment2">
+        <test-method signature="launchBrowser()[pri:1, instance:com.MavenActi.programs.Assignment2@4c1909a3]" started-at="2022-11-12T16:10:27 IST" name="launchBrowser" finished-at="2022-11-12T16:10:31 IST" duration-ms="3654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.MavenActi.programs.Assignment2@4c1909a3]" started-at="2022-11-12T16:10:31 IST" name="navigate" finished-at="2022-11-12T16:10:37 IST" duration-ms="6722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.MavenActi.programs.Assignment2@4c1909a3]" started-at="2022-11-12T16:10:37 IST" name="login" data-provider="login" finished-at="2022-11-12T16:10:43 IST" duration-ms="5716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.MavenActi.programs.Assignment2@4c1909a3]" started-at="2022-11-12T16:10:43 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T16:10:45 IST" duration-ms="2205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.MavenActi.programs.Assignment2@4c1909a3]" started-at="2022-11-12T16:10:45 IST" name="createUser" data-provider="createUser" finished-at="2022-11-12T16:11:04 IST" duration-ms="18713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[demo@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[demoUser1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteUser()[pri:6, instance:com.MavenActi.programs.Assignment2@4c1909a3]" started-at="2022-11-12T16:11:04 IST" name="deleteUser" finished-at="2022-11-12T16:11:11 IST" duration-ms="6591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="modifyuser(java.lang.String,java.lang.String)[pri:6, instance:com.MavenActi.programs.Assignment2@4c1909a3]" started-at="2022-11-12T16:11:11 IST" name="modifyuser" data-provider=" modifyuser" finished-at="2022-11-12T16:11:11 IST" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[432]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[432]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyuser -->
+        <test-method signature="logout()[pri:7, instance:com.MavenActi.programs.Assignment2@4c1909a3]" started-at="2022-11-12T16:11:11 IST" name="logout" finished-at="2022-11-12T16:11:14 IST" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApp()[pri:8, instance:com.MavenActi.programs.Assignment2@4c1909a3]" started-at="2022-11-12T16:11:14 IST" name="closeApp" finished-at="2022-11-12T16:11:15 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.MavenActi.programs.Assignment2 -->
+      <class name="com.MavenActi.programs.Assignment1">
+        <test-method signature="launchBrowser()[pri:1, instance:com.MavenActi.programs.Assignment1@290222c1]" started-at="2022-11-12T16:09:32 IST" name="launchBrowser" finished-at="2022-11-12T16:09:40 IST" duration-ms="8517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.MavenActi.programs.Assignment1@290222c1]" started-at="2022-11-12T16:09:40 IST" name="navigate" finished-at="2022-11-12T16:09:48 IST" duration-ms="7748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.MavenActi.programs.Assignment1@290222c1]" started-at="2022-11-12T16:09:48 IST" name="login" data-provider="login" finished-at="2022-11-12T16:09:54 IST" duration-ms="6110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.MavenActi.programs.Assignment1@290222c1]" started-at="2022-11-12T16:09:54 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T16:09:56 IST" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.MavenActi.programs.Assignment1@290222c1]" started-at="2022-11-12T16:09:56 IST" name="createUser" data-provider="createUser" finished-at="2022-11-12T16:10:16 IST" duration-ms="19520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[demo@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[demoUser1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteUser()[pri:6, instance:com.MavenActi.programs.Assignment1@290222c1]" started-at="2022-11-12T16:10:16 IST" name="deleteUser" finished-at="2022-11-12T16:10:23 IST" duration-ms="6856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="logout()[pri:7, instance:com.MavenActi.programs.Assignment1@290222c1]" started-at="2022-11-12T16:10:23 IST" name="logout" finished-at="2022-11-12T16:10:26 IST" duration-ms="3440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApp()[pri:8, instance:com.MavenActi.programs.Assignment1@290222c1]" started-at="2022-11-12T16:10:26 IST" name="closeApp" finished-at="2022-11-12T16:10:27 IST" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.MavenActi.programs.Assignment1 -->
+      <class name="com.MavenActi.programs.Assignment8">
+        <test-method signature="launchBrowser()[pri:1, instance:com.MavenActi.programs.Assignment8@59505b48]" started-at="2022-11-12T16:13:53 IST" name="launchBrowser" finished-at="2022-11-12T16:13:55 IST" duration-ms="2562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.MavenActi.programs.Assignment8@59505b48]" started-at="2022-11-12T16:13:55 IST" name="navigate" finished-at="2022-11-12T16:14:03 IST" duration-ms="7336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.MavenActi.programs.Assignment8@59505b48]" started-at="2022-11-12T16:14:03 IST" name="login" data-provider="login" finished-at="2022-11-12T16:14:08 IST" duration-ms="5851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.MavenActi.programs.Assignment8@59505b48]" started-at="2022-11-12T16:14:08 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T16:14:11 IST" duration-ms="2703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method signature="addCustomer(java.lang.String)[pri:5, instance:com.MavenActi.programs.Assignment8@59505b48]" started-at="2022-11-12T16:14:11 IST" name="addCustomer" data-provider="addCustomer" finished-at="2022-11-12T16:14:29 IST" duration-ms="18203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Isro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="creatProject(java.lang.String)[pri:6, instance:com.MavenActi.programs.Assignment8@59505b48]" started-at="2022-11-12T16:14:29 IST" name="creatProject" data-provider="createProject" finished-at="2022-11-12T16:14:42 IST" duration-ms="12753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaganayana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatProject -->
+        <test-method signature="CreatTask(java.lang.String)[pri:7, instance:com.MavenActi.programs.Assignment8@59505b48]" started-at="2022-11-12T16:14:42 IST" name="CreatTask" data-provider="Createtask" finished-at="2022-11-12T16:14:54 IST" duration-ms="12010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewTask]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatTask -->
+        <test-method signature="deleteCustomer()[pri:7, instance:com.MavenActi.programs.Assignment8@59505b48]" started-at="2022-11-12T16:14:54 IST" name="deleteCustomer" finished-at="2022-11-12T16:15:07 IST" duration-ms="12782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logout()[pri:7, instance:com.MavenActi.programs.Assignment8@59505b48]" started-at="2022-11-12T16:15:07 IST" name="logout" finished-at="2022-11-12T16:15:10 IST" duration-ms="2928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApp()[pri:8, instance:com.MavenActi.programs.Assignment8@59505b48]" started-at="2022-11-12T16:15:10 IST" name="closeApp" finished-at="2022-11-12T16:15:11 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.MavenActi.programs.Assignment8 -->
+      <class name="com.MavenActi.programs.Assignment7">
+        <test-method signature="launchBrowser()[pri:1, instance:com.MavenActi.programs.Assignment7@29215f06]" started-at="2022-11-12T16:13:14 IST" name="launchBrowser" finished-at="2022-11-12T16:13:17 IST" duration-ms="3159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.MavenActi.programs.Assignment7@29215f06]" started-at="2022-11-12T16:13:17 IST" name="navigate" finished-at="2022-11-12T16:13:25 IST" duration-ms="7351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.MavenActi.programs.Assignment7@29215f06]" started-at="2022-11-12T16:13:25 IST" name="login" data-provider="login" finished-at="2022-11-12T16:13:30 IST" duration-ms="5655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.MavenActi.programs.Assignment7@29215f06]" started-at="2022-11-12T16:13:30 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T16:13:33 IST" duration-ms="2177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method signature="addCustomer(java.lang.String)[pri:5, instance:com.MavenActi.programs.Assignment7@29215f06]" started-at="2022-11-12T16:13:33 IST" name="addCustomer" data-provider="addCustomer" finished-at="2022-11-12T16:13:48 IST" duration-ms="15825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="creatProject(java.lang.String)[pri:6, instance:com.MavenActi.programs.Assignment7@29215f06]" started-at="2022-11-12T16:13:48 IST" name="creatProject" data-provider="createProject" finished-at="2022-11-12T16:13:50 IST" duration-ms="1177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaganayana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatProject -->
+        <test-method signature="ModifyProject()[pri:7, instance:com.MavenActi.programs.Assignment7@29215f06]" started-at="2022-11-12T16:13:50 IST" name="ModifyProject" finished-at="2022-11-12T16:13:50 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyProject -->
+        <test-method signature="DeleteProject()[pri:8, instance:com.MavenActi.programs.Assignment7@29215f06]" started-at="2022-11-12T16:13:50 IST" name="DeleteProject" finished-at="2022-11-12T16:13:51 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProject -->
+        <test-method signature="logout()[pri:9, instance:com.MavenActi.programs.Assignment7@29215f06]" started-at="2022-11-12T16:13:51 IST" name="logout" finished-at="2022-11-12T16:13:52 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApp()[pri:10, instance:com.MavenActi.programs.Assignment7@29215f06]" started-at="2022-11-12T16:13:52 IST" name="closeApp" finished-at="2022-11-12T16:13:53 IST" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.MavenActi.programs.Assignment7 -->
+      <class name="com.MavenActi.programs.Assignment6">
+        <test-method signature="launchBrowser()[pri:1, instance:com.MavenActi.programs.Assignment6@2d710f1a]" started-at="2022-11-12T16:12:34 IST" name="launchBrowser" finished-at="2022-11-12T16:12:38 IST" duration-ms="3828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.MavenActi.programs.Assignment6@2d710f1a]" started-at="2022-11-12T16:12:38 IST" name="navigate" finished-at="2022-11-12T16:12:45 IST" duration-ms="6754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.MavenActi.programs.Assignment6@2d710f1a]" started-at="2022-11-12T16:12:45 IST" name="login" data-provider="login" finished-at="2022-11-12T16:12:50 IST" duration-ms="5657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.MavenActi.programs.Assignment6@2d710f1a]" started-at="2022-11-12T16:12:50 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T16:12:53 IST" duration-ms="2250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method signature="addCustomer(java.lang.String)[pri:5, instance:com.MavenActi.programs.Assignment6@2d710f1a]" started-at="2022-11-12T16:12:53 IST" name="addCustomer" data-provider="addCustomer" finished-at="2022-11-12T16:13:10 IST" duration-ms="17116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="creatProject(java.lang.String)[pri:6, instance:com.MavenActi.programs.Assignment6@2d710f1a]" started-at="2022-11-12T16:13:10 IST" name="creatProject" data-provider="createProject" finished-at="2022-11-12T16:13:11 IST" duration-ms="1118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaganayana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatProject -->
+        <test-method signature="deleteProject()[pri:7, instance:com.MavenActi.programs.Assignment6@2d710f1a]" started-at="2022-11-12T16:13:11 IST" name="deleteProject" finished-at="2022-11-12T16:13:12 IST" duration-ms="1233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method signature="logout()[pri:8, instance:com.MavenActi.programs.Assignment6@2d710f1a]" started-at="2022-11-12T16:13:12 IST" name="logout" finished-at="2022-11-12T16:13:13 IST" duration-ms="1305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApp()[pri:9, instance:com.MavenActi.programs.Assignment6@2d710f1a]" started-at="2022-11-12T16:13:13 IST" name="closeApp" finished-at="2022-11-12T16:13:14 IST" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.MavenActi.programs.Assignment6 -->
+      <class name="com.MavenActi.programs.Assignment5">
+        <test-method signature="launchBrowser()[pri:1, instance:com.MavenActi.programs.Assignment5@d9345cd]" started-at="2022-11-12T16:11:54 IST" name="launchBrowser" finished-at="2022-11-12T16:11:57 IST" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.MavenActi.programs.Assignment5@d9345cd]" started-at="2022-11-12T16:11:57 IST" name="navigate" finished-at="2022-11-12T16:12:04 IST" duration-ms="7108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.MavenActi.programs.Assignment5@d9345cd]" started-at="2022-11-12T16:12:04 IST" name="login" data-provider="login" finished-at="2022-11-12T16:12:10 IST" duration-ms="5780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.MavenActi.programs.Assignment5@d9345cd]" started-at="2022-11-12T16:12:10 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T16:12:12 IST" duration-ms="2365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method signature="addCustomer(java.lang.String)[pri:5, instance:com.MavenActi.programs.Assignment5@d9345cd]" started-at="2022-11-12T16:12:12 IST" name="addCustomer" data-provider="addCustomer" finished-at="2022-11-12T16:12:30 IST" duration-ms="17562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="modifyCustomer()[pri:6, instance:com.MavenActi.programs.Assignment5@d9345cd]" started-at="2022-11-12T16:12:30 IST" name="modifyCustomer" finished-at="2022-11-12T16:12:31 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCustomer -->
+        <test-method signature="deleteCustomer()[pri:7, instance:com.MavenActi.programs.Assignment5@d9345cd]" started-at="2022-11-12T16:12:31 IST" name="deleteCustomer" finished-at="2022-11-12T16:12:32 IST" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logout()[pri:8, instance:com.MavenActi.programs.Assignment5@d9345cd]" started-at="2022-11-12T16:12:32 IST" name="logout" finished-at="2022-11-12T16:12:33 IST" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApp()[pri:9, instance:com.MavenActi.programs.Assignment5@d9345cd]" started-at="2022-11-12T16:12:33 IST" name="closeApp" finished-at="2022-11-12T16:12:34 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.MavenActi.programs.Assignment5 -->
+      <class name="com.MavenActi.programs.Assignment4">
+        <test-method signature="launchBrowser()[pri:1, instance:com.MavenActi.programs.Assignment4@428640fa]" started-at="2022-11-12T16:11:15 IST" name="launchBrowser" finished-at="2022-11-12T16:11:18 IST" duration-ms="3394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.MavenActi.programs.Assignment4@428640fa]" started-at="2022-11-12T16:11:18 IST" name="navigate" finished-at="2022-11-12T16:11:26 IST" duration-ms="7551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.MavenActi.programs.Assignment4@428640fa]" started-at="2022-11-12T16:11:26 IST" name="login" data-provider="login" finished-at="2022-11-12T16:11:31 IST" duration-ms="5635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyOutwindow()[pri:4, instance:com.MavenActi.programs.Assignment4@428640fa]" started-at="2022-11-12T16:11:31 IST" name="minimizeFlyOutwindow" finished-at="2022-11-12T16:11:34 IST" duration-ms="2289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method signature="addCustomer(java.lang.String)[pri:5, instance:com.MavenActi.programs.Assignment4@428640fa]" started-at="2022-11-12T16:11:34 IST" name="addCustomer" data-provider="addCustomer" finished-at="2022-11-12T16:11:51 IST" duration-ms="16916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="deleteCustomer()[pri:6, instance:com.MavenActi.programs.Assignment4@428640fa]" started-at="2022-11-12T16:11:51 IST" name="deleteCustomer" finished-at="2022-11-12T16:11:52 IST" duration-ms="1142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logout()[pri:7, instance:com.MavenActi.programs.Assignment4@428640fa]" started-at="2022-11-12T16:11:52 IST" name="logout" finished-at="2022-11-12T16:11:53 IST" duration-ms="1186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApp()[pri:8, instance:com.MavenActi.programs.Assignment4@428640fa]" started-at="2022-11-12T16:11:53 IST" name="closeApp" finished-at="2022-11-12T16:11:54 IST" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.MavenActi.programs.Assignment4 -->
+    </test> <!-- Users> -->
+  </suite> <!-- testcases -->
+</testng-results>

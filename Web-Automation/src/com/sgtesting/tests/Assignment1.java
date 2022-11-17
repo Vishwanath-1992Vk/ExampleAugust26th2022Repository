@@ -82,8 +82,8 @@ public class Assignment1 {
 			oBrowser.findElement(By.name("lastName")).sendKeys("User1");
 			oBrowser.findElement(By.name("email")).sendKeys("demo@gmail.com");
 			oBrowser.findElement(By.name("username")).sendKeys("demoUser1");
-			oBrowser.findElement(By.name("password")).sendKeys("Welcome123");
-			oBrowser.findElement(By.name("passwordCopy")).sendKeys("Welcome123");
+			oBrowser.findElement(By.name("password")).sendKeys("1234");
+			oBrowser.findElement(By.name("passwordCopy")).sendKeys("1234");
 			Thread.sleep(2000);
 			oBrowser.findElement(By.xpath("//span[text()='Create User']")).click();
 			Thread.sleep(5000);
