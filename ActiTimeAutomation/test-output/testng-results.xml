@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Cucumber" duration-ms="144940" started-at="2022-11-24T21:46:45 IST" finished-at="2022-11-24T21:49:10 IST">
+    <groups>
+    </groups>
+    <test name="Scenarios" duration-ms="144940" started-at="2022-11-24T21:46:45 IST" finished-at="2022-11-24T21:49:10 IST">
+      <class name="com.sgtesting.actitime.testsuite.DriverScript">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.sgtesting.actitime.testsuite.DriverScript@44a3ec6b]" name="setUpClass" is-config="true" duration-ms="1350" started-at="2022-11-24T21:46:45 IST" finished-at="2022-11-24T21:46:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.sgtesting.actitime.testsuite.DriverScript@44a3ec6b]" name="feature" duration-ms="51523" started-at="2022-11-24T21:46:47 IST" data-provider="features" finished-at="2022-11-24T21:47:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login and Logout functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.sgtesting.actitime.testsuite.DriverScript@44a3ec6b]" name="feature" duration-ms="89334" started-at="2022-11-24T21:47:39 IST" data-provider="features" finished-at="2022-11-24T21:49:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create User Scenarios]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.sgtesting.actitime.testsuite.DriverScript@44a3ec6b]" name="tearDownClass" is-config="true" duration-ms="2234" started-at="2022-11-24T21:49:08 IST" finished-at="2022-11-24T21:49:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:com.sgtesting.actitime.testsuite.DriverScript@44a3ec6b]" name="writeExtentReport" is-config="true" duration-ms="65" started-at="2022-11-24T21:49:10 IST" finished-at="2022-11-24T21:49:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+      </class> <!-- com.sgtesting.actitime.testsuite.DriverScript -->
+    </test> <!-- Scenarios -->
+  </suite> <!-- BDD Cucumber -->
+</testng-results>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33026" started-at="2022-11-25T12:48:35 IST" finished-at="2022-11-25T12:49:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33026" started-at="2022-11-25T12:48:35 IST" finished-at="2022-11-25T12:49:08 IST">
+      <class name="com.sgtesting.actitime.LoginLogoutDemo">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:com.sgtesting.actitime.LoginLogoutDemo@5ed828d]" name="launchBrowser" duration-ms="9374" started-at="2022-11-25T12:48:35 IST" finished-at="2022-11-25T12:48:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.sgtesting.actitime.LoginLogoutDemo@5ed828d]" name="navigate" duration-ms="8239" started-at="2022-11-25T12:48:44 IST" finished-at="2022-11-25T12:48:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.actitime.LoginLogoutDemo@5ed828d]" name="login" duration-ms="6034" started-at="2022-11-25T12:48:53 IST" data-provider="login" finished-at="2022-11-25T12:48:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="minimizeFlyOutwindow()[pri:4, instance:com.sgtesting.actitime.LoginLogoutDemo@5ed828d]" name="minimizeFlyOutwindow" duration-ms="2330" started-at="2022-11-25T12:48:59 IST" finished-at="2022-11-25T12:49:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutwindow -->
+        <test-method status="PASS" signature="logout()[pri:5, instance:com.sgtesting.actitime.LoginLogoutDemo@5ed828d]" name="logout" duration-ms="4394" started-at="2022-11-25T12:49:01 IST" finished-at="2022-11-25T12:49:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApp()[pri:6, instance:com.sgtesting.actitime.LoginLogoutDemo@5ed828d]" name="closeApp" duration-ms="2472" started-at="2022-11-25T12:49:05 IST" finished-at="2022-11-25T12:49:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.sgtesting.actitime.LoginLogoutDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
